@@ -1,0 +1,19 @@
+body{
+    background-color:lightgray;
+    font-family: fantasy;
+}
+h1{
+    background-color:lightgray;
+    color:slateblue;
+    text-align: center;
+    font-size: 28px;
+}
+h2{
+    color:blueviolet;
+}
+h3{
+    color:darkorchid
+}
+ul{
+    color:rebeccapurple; font-size: 28px;
+}
