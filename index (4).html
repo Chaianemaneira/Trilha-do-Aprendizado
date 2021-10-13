@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula09</title>
+    <style>
+        body{
+            background-color: black;
+            color: blanchedalmond;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong><font color="red" size="12">Multimídias</font></strong></h1>
+    <p>
+        Multimídia é uma forma de comunicação que combina diferentes formas de conteúdo como <i><font color="red" size="6">texto, imagens, aúdio e animações em vídeo</font></i> em uma única apresentação.<br>
+    </p>
+    <h2><strong><font color="orange" size="12">TAG iframe.</font></strong></h2>
+    <p>
+        A tag <i><font color="orange" size="6">iframe</font></i> é usada para <i><font color="orange" size="8">incorporar outro documento ao documento HTML.</font></i><br>
+        Sintaxe:
+        <figure>
+            <img src="Imagens/Tag Iframe sintaxe.jpeg" height="30%" width="30%" alt="sintaxe da tag iframe">
+        </figure>
+    </p>
+    <h2><strong><font color="yellow" size="12">Tag vídeo.</font></strong></h2>
+    <p>
+        Usada para <i><font color="yellow" size="6">incorporar o conteúdo de um vídeo em um documento, como um clipe de filme ou outros fluxos de vídeo.</font></i><br>
+        Contém <i><font color="yellow" size="6"> uma ou mais tags com diferentes fontes de vídeo,</font></i>onde o navegador escolhe a primeira fonte que suporta.<br>
+        <video poster="Vídeo/Thumbnail do vídeo.png" height="40%" width="40%" controls>
+            <source src="Vídeo/Vídeo.mp4" type="video/mp4">
+        </video>
+    </p>
+    <h2><strong><font color="green" size="12">Tag áudio.</font></strong></h2>
+    <p>
+        Usada para <i><font color="green" size="6">incorporar o conteúdo de som em um documento, como músicas ou outros fluxos de áudio.</font></i><br>
+        Contém <i><font color="green" size="6">uma ou mais tags com diferentes fontes de áudio,</font></i>o navegador escolhe a primeira fonte que suporta.<br>
+        <audio preload="metadata" controls>
+            <source src="Áudio/OSA Dress Code - Squadda B.mp3" type="audio/mp3">
+        </audio>
+    </p>
+    <h2><strong><font color="blue" size="12">Tag picture.</font></strong></h2>
+    <p>
+        Oferece aos desenvolvedores web mais flexibilidade na especificação de recursos da imagem.<br>
+        Contém duas tags: <i><font color="blue" size="6">uma ou mais tags source e uma tag img.</font></i><br>
+        O navegador procurará o primeiro elemento source <i><font color="blue" size="6" >onde a consulta de mídia corresponde à largura da janela de visualização atual,</font></i>e em seguida, mostrará a imagem adequada. O elemento img é necessário como <i><font color="blue" size="6">o último filho do elemento img</font></i>, como uma opção de fallback se nenhuma das tags de origem corresponder.<br>
+        <picture>
+            <source media="(max-width:300px)" srcset="ImagensRDE09/Foto">
+            <img src="Imagens/Foto.jpeg" height="30%" width="30%" alt="Minha foto">
+        </picture>
+    </p>
+</body>
+</html>
