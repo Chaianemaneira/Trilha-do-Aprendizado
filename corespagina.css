@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 100%;
+    margin:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 51, 0);
+    background-color: rgb(230, 255, 230);
+}
+
+h1{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(185, 255, 185);
+    border: 3px dashed rgb(16, 48, 16);
+}
+
+p{
+    display: inline;
+    color: rgb(0, 80, 0);
+    background-color: rgb(155, 255, 155);
+}
+
+span{
+    display: block;
+    font-weight: bold;
+    background-color: rgb(153, 255, 125); 
+    color: rgb(30, 255, 0);
+}
+
+.box1{
+    position: static;
+    height: 50px; 
+    width: 400px;
+    background-color: rgb(215, 255, 155);
+    border: dashed 2px rgb(10, 110, 10);
+}
+
+.box2{
+    position: relative;
+    bottom: 50px;
+    width: 400px;
+    height: 50px;
+    left: 450px;
+    background-color: rgb(188, 255, 175);
+    border: dashed 2px rgb(20, 100, 0);
+}
+
+.box3{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    top: 500px;
+    left: 500px;
+    background-color: rgb(200, 255, 155);
+    border: dashed 2px rgb(10, 41, 0);
+}
+
+.box4{
+    position: fixed;
+    width: 400px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(169, 255, 148);
+    border: dashed 2px rgb(42, 87, 0);
+}
+
+.box5{
+    position: sticky;
+    bottom: 200px;
+    left: 150px;
+    background-color: rgb(204, 255, 137);
+    border: dashed 2px rgb(10, 88, 0);
+}
+
+.layer1{
+    position: relative;
+    bottom: 0px;
+    width: 80px;
+    height: 70px;
+    left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgb(185, 255, 167);
+}
+
+.layer2{
+    position: relative;
+    bottom: 20px;
+    width: 80px;
+    height: 70px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: rgb(138, 255, 123);
+}
