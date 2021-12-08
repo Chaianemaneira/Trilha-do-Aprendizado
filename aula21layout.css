@@ -1,18 +1,18 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to left,#9FB3D3, #C1C7DC);
+    background-image: linear-gradient(to right, #4C6589, #C0C4CF);
     width: 90%;
     margin: 0 auto;
 }
 
 header{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(200, 200, 230);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #65809F;
     border-radius: 5px;
     margin-top: 10px;
 }
 
-.logotipo img{
+.logo img{
     width: 60%;
     padding-top: 40px;
 }
@@ -23,32 +23,38 @@ header{
 }
 
 .navegação a{
-    float: right;
+    float:right;
     display: block;
-    color: #222a2E;
+    color: #228693;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     padding: 5px 5px;
-    font-weight: bold;
 }
 
 .navegação a:hover{
-    color:#9932CC;
-    background-color: #E6E6FA;
+    color: #FF0000;
+    background-color: #FFB6C1;
 }
 
 .conteudo{
-    float:left;
+    float: left;
     margin: 15px 2px 25px 2px;
-    background-color: #F1DAD3;
+    background-color: #83C8D1;
     width: 25.5%;
     text-align: justify;
     padding: 15px;
-    border-radius: 5.5px;
-    box-shadow:  10px 10px 10px rgb(38, 0, 65);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #075061;
 }
 
-@media screen and (max-width:700px){
+.rodapé{
+    color:#4E1F3C;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and(max-width:800px){
     .principal, .conteudo{
         width: 100%;
         padding: 0;
