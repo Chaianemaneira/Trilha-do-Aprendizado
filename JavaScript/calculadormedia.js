@@ -1,4 +1,5 @@
-var media, n1, n2, n3, n4;
+function calcularmedia(){
+    var media, n1, n2, n3, n4;
 
 n1=prompt("Informe a primeira nota:");
 console.log(n1);
@@ -22,4 +23,5 @@ else if(media>=8){
 }
 else if(media>=10){
     alert=("Conceito A. Aprovado. Parabéns!");
+}
 }
